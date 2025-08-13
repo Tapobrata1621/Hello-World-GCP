@@ -1,0 +1,2 @@
+runtime: python311
+ebntrypoint: gunicorn -b :$PORT maimn:app
